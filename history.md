@@ -28,3 +28,12 @@ Start
   open localhost:4000 and check
 
 *refer:*<http://www.cnblogs.com/yevon/p/3308158.html>  
+
+Google code pretty
+---
+1. download  
+  <https://code.google.com/p/google-code-prettify/downloads>  
+2. extract to project folder
+3. refer to wiki, serving JS&CSS in default.html
+4. tab or 4 spaces in markdown to highlight code
+5. modify pretty.css to change theme
