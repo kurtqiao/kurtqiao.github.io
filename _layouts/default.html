@@ -15,14 +15,16 @@
 
     {% include footer.html %}
 
+
+<script type="text/javascript" src="/plugins/google-code-prettify/prettify.js"></script>
+<script type="text/javascript" src="/plugins/styles/jquery-1.8.0.min.js"></script>
+<script type="text/javascript">
+  $(function(){
+    $("pre").addClass("prettyprint").attr('style', 'overflow:auto');
+    prettyPrint();
+  });
+</script>
   </body>
 
 </html>
 
-<link href="/plugins/google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
-<script type="text/javascript" src="/plugins/google-code-prettify/prettify.js">
-  $(function(){
-    $("pre").addClass("prettyprint linenums");
-    prettyPrint();
-  });
-</script>

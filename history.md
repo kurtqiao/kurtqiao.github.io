@@ -34,6 +34,7 @@ Google code pretty
 1. download  
   <https://code.google.com/p/google-code-prettify/downloads>  
 2. extract to project folder
-3. refer to wiki, serving JS&CSS in default.html
-4. tab or 4 spaces in markdown to highlight code
-5. modify pretty.css to change theme
+3. download css styles, you can change display style in here
+4. add css style in head.html, add prettify.js and jqueryxxx.js in default.html
+5. use '<pre></pre>' to hightlihgt code in markdown
+
