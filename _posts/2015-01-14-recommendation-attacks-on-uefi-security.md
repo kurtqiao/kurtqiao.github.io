@@ -1,6 +1,6 @@
 --- 
 layout: post
-title:  "Recomendation: Attacks On UEFI Security"
+title:  "Recommendation: Attacks On UEFI Security"
 date:   2015-01-14 14:47:43
 categories: UEFI
 --- 
