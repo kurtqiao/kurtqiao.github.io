@@ -162,6 +162,20 @@ start putty -serial \\.\pipe\SimNow.Com1
 *9. Opps! windows BSOD... need some ACPI debugging or disable ACPI support here.  
 <img src="\images\2015\01\simnow\simnow_opps.gif">
 
+###Add EDK2 Duet Payload
+Wanna support UEFI? Let's add EDK2 payload for coreboot. Please refer to [notabs.org EDK2 Duet payload for coreboot][edk2plLnk].  
+After download the duetpayload package, you can find built out UEFI payload in this folder: `e350m1-duetpayload-035\test-results\windows-build\images\EFILDR16`.  
+If you want to build this payload, please follow the steps descripted in this page of notabs.org.    
+You can NOT just add it as a ELF payload file when build coreboot, so:  
+1. Build coreboot with `None` payload  
+2. Run cbfstool to add EFILDR16 as a payload to coreboot.rom binary  
+<pre>build/cbfstool build/coreboot.rom add-flat-binary -f ../edk2/build/images/EFILDR16 -n fallback/payload -l 0x100000 -e 0x102000</pre>
+Note:  
+this UEFI payload size is about 918KB i can't even add it into a 1MB size coreboot rom, so i increase the coreboot rom size to 2MB, and change the rom size of AMD SimNow to verify this payload.  
+<img src="\images\2015\01\simnow\simnow_efiboot.jpg">  
+
+<img src="\images\2015\01\simnow\simnow_efiboot_setup.jpg">
+
 ###Others
 **How to change size of coreboot.rom?**  
 the build out rom size is 1MB in this example, you can change to 512KB when setting .config.
@@ -184,4 +198,5 @@ If you want to change some settings in .config file, just re-run `make oldconfig
 [winbdeLnk]:  http://sourceforge.net/projects/coreboot-tools-for-windows/  
 [ADKBLnk]:  http://developer.amd.com/knowledge-base/  
 [vgasptLnk]: http://www.coreboot.org/VGA_support  
-[sbsbuildLnk]: http://notabs.org/coreboot/corebootWindowsBuild.htm
+[sbsbuildLnk]: http://notabs.org/coreboot/corebootWindowsBuild.htm  
+[edk2plLnk]:  http://notabs.org/coreboot/duet-payload/index.htm  
