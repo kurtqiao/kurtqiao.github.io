@@ -46,6 +46,7 @@ you can also follow [Corey](https://twitter.com/coreykal) on twitter.
 [Speed Racer Whitepaper][1]  
 [Attack UEFI Boot Script whitepaper][2]  
 [Presentation of this video][3]
+[Exploiting UEFI boot script table vulnerability][4]
 
 [ytLnk]:  http://youtu.be/ths65a9LH6Y  
 [vndLnk]:  http://www.kb.cert.org/vuls/  
@@ -55,3 +56,4 @@ you can also follow [Corey](https://twitter.com/coreykal) on twitter.
 [1]: https://frab.cccv.de/system/attachments/2565/original/speed_racer_whitepaper.pdf  
 [2]: https://frab.cccv.de/system/attachments/2566/original/venamis_whitepaper.pdf  
 [3]: https://frab.cccv.de/system/attachments/2557/original/AttacksOnUEFI_Slides.pdf
+[4]:  http://blog.cr4.sh/2015/02/exploiting-uefi-boot-script-table.html
