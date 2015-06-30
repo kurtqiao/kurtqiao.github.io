@@ -168,6 +168,11 @@ The tutorial is too brief to understand?
   }
 </pre>
 
+###Expansion
+Here's a good sample [Intel IoT Edison web controlled LED][webcontrolLnk].  
+you can refer to [Intel web controller presentation][webcontrolpstLnk].  
+download webcontroller.js from [Intel-academic-IoT-course][webcontrollerjsLnk].  
+
 [emutexlabsLnk]:	http://www.emutexlabs.com/project/215-intel-edison-gpio-pin-multiplexing-guide  
 [edisonarduinohgLnk]:  http://download.intel.com/support/edison/sb/edisonarduino_hg_331191007.pdf  
 [edisongpioLnk]:    http://www.intel-software-academic-program.com/courses/diy/Intel_Academic_-_DIY_-_InternetOfThings/IntelAcademic_IoT-Edison_04_GPIO_on_Edison.pdf  
@@ -176,3 +181,6 @@ The tutorial is too brief to understand?
 [edisonbtLnk]:   http://download.intel.com/support/edison/sb/edisonbluetooth_331704004.pdf  
 [btsppandriodLnk]:    http://www.anddev.org/code-snippets-for-andriod-f33/serial-over-bluetooth-simple-test-client-t11106.html  
 [andriodbtLnk]:    https://www.youtube.com/watch?v=OTQHZ16q0Ik&list=PLQrQKDQmvSfxEmYOugNkYLSEs5oLxs5u6  
+[webcontrolLnk]:	  http://www.instructables.com/id/Intel-IoT-Edison-web-controlled-LED/?ALLSTEPS  
+[webcontrolpstLnk]:    http://www.intel-software-academic-program.com/courses/diy/Intel_Academic_-_DIY_-_InternetOfThings/IntelAcademic_IoT-Edison_06_NodeJS_web_controller.pdf  
+[webcontrollerjsLnk]:  https://github.com/guermonprez/intel-academic-IoT-course/tree/master/labs/07_webLed_NodeHTTP  
