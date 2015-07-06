@@ -172,6 +172,7 @@ The tutorial is too brief to understand?
 Here's a good sample [Intel IoT Edison web controlled LED][webcontrolLnk].  
 you can refer to [Intel web controller presentation][webcontrolpstLnk].  
 download webcontroller.js from [Intel-academic-IoT-course][webcontrollerjsLnk].  
+How to read data from edison? check [sending and receiving data via Bluetooth][btThreadLnk].  
 
 [emutexlabsLnk]:	http://www.emutexlabs.com/project/215-intel-edison-gpio-pin-multiplexing-guide  
 [edisonarduinohgLnk]:  http://download.intel.com/support/edison/sb/edisonarduino_hg_331191007.pdf  
@@ -184,3 +185,4 @@ download webcontroller.js from [Intel-academic-IoT-course][webcontrollerjsLnk].
 [webcontrolLnk]:	  http://www.instructables.com/id/Intel-IoT-Edison-web-controlled-LED/?ALLSTEPS  
 [webcontrolpstLnk]:    http://www.intel-software-academic-program.com/courses/diy/Intel_Academic_-_DIY_-_InternetOfThings/IntelAcademic_IoT-Edison_06_NodeJS_web_controller.pdf  
 [webcontrollerjsLnk]:  https://github.com/guermonprez/intel-academic-IoT-course/tree/master/labs/07_webLed_NodeHTTP  
+[btThreadLnk]:    http://www.egr.msu.edu/classes/ece480/capstone/spring14/group01/docs/appnote/Wirsing-SendingAndReceivingDataViaBluetoothWithAnAndroidDevice.pdf  
